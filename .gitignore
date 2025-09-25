@@ -1,0 +1,50 @@
+# 가상환경
+.venv/
+env/
+venv/
+ENV/
+
+# Python 바이트코드 캐시
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Jupyter Notebook 체크포인트
+.ipynb_checkpoints/
+
+# IDE/에디터 관련
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 빌드/배포 아티팩트
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 테스트/커버리지
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# 로그 파일
+*.log
+
+# 환경 변수/설정 파일 (민감 정보)
+.env
+*.env
+
+# 데이터/모델 (대용량 파일은 업로드 금지 권장)
+data/*
+!data/.gitkeep   
+# ㄴdata 폴더 구조만 유지할 경우
+
+# MacOS/Windows 자동 생성 파일
+.DS_Store
+Thumbs.db
