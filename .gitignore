@@ -48,3 +48,26 @@ data/*
 # MacOS/Windows 자동 생성 파일
 .DS_Store
 Thumbs.db
+
+# 제외할 폴더
+analysis/data/
+analysis/tmp/
+analysis/.ipynb_checkpoints/
+
+# 학습된 모델/체크포인트 (대용량, 보안 이슈 방지)
+*.pt
+*.pth
+*.onnx
+*.h5
+*.ckpt
+*.joblib
+
+# 훈련 로그/결과물
+*.log
+*.out
+*.err
+
+# 체크포인트/결과 저장 디렉토리
+checkpoints/
+runs/
+results/
